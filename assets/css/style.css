@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(48, 44, 44);
+}
+
+.df{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 11%;
+    gap: 75px;
+}
+
+.wh{
+    padding-block: 23vh;
+    width: 27%;
+    background-color:red;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.wh:hover{
+    transform: scale(1.03);
+    transition: 1s;
+}
+
+.c1{
+    background: rgb(117,63,66);
+    background: linear-gradient(90deg, rgba(117,63,66,1) 0%, rgba(56,40,64,1) 100%);
+}
+
+
+
+img{
+    width: 100%;
+    margin-top: -80%;
+    height: 30vh;
+    border-radius: 25px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.imgpos{
+    margin-top: -16%;
+    
+}
+
+p{
+    color: white;
+    padding-left: 15px;
+    padding-top: 30px;
+    font-size: 125%;
+    font-family: cursive;
+    text-align: center;
+}
+
+span{
+    padding-left: 215px;
+    color: white;
+    font-size: 125%;
+    font-family: cursive;
+    padding-top: 5%;
+    
+}
+
+.bn{
+    width: 40%;
+    height: 5vh;
+    margin-left: 30%;
+    border-radius: 25px;
+    border: none;
+    background-color: orange;
+    margin-top: 6%;
+    color: white;
+    margin-top: 35%;
+
+}
+
+.bn:hover{
+    background-color: brown;
+}
+
+.btntop{
+    padding-top: 125%;
+}
+
+.spannn{
+    display: flex;
+    margin-top: 3%;
+}

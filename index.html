@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Card</title>
+</head>
+<body>
+    <div class="df">
+        
+        <div class="wh c1">
+            <div class="imgpos">
+                <img draggable="false" src="assets/img/jackdaniels.jpg" alt="">
+            </div>
+
+            <p>Jack Daniel's Old No. 7 (750ml)</p>
+            <span class="spannn" id="stock1">Stock: 15</span>
+            
+            <div class="bntop">
+                <button onclick="document.getElementById('stock1').innerText='Stock:' + ' ' + stockTake1(1)" class="bn">Buy Now</button>
+            </div>
+        </div>
+        <div class="wh c1">
+            <div class="imgpos">
+                <img draggable="false" src="assets/img/tequila.jpg" alt="">
+            </div>
+
+            <p>Siete 7 Leguas Tequila Reposado (750ml)</p>
+            <span class="spannn" id="stock2">Stock: 30</span>
+            <div class="bntop">
+                <button onclick="document.getElementById('stock2').innerText='Stock:' + ' ' + stockTake2(1)" class="bn">Buy Now</button>
+            </div>
+            
+        </div>
+        <div class="wh c1">
+            <div class="imgpos">
+                <img draggable="false" src="assets/img/vodka.jpg" alt="">
+            </div>
+
+            <p >Absolut Vodka (750ml)</p>
+            <span class="spannn" id="stock3">Stock: 25</span>
+
+            <div class="bntop">
+                <button onclick="document.getElementById('stock3').innerText='Stock:' + ' ' + stockTake3(1)" class="bn">Buy Now</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Java-Script -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
